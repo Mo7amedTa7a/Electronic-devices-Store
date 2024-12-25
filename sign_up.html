@@ -55,8 +55,8 @@
             <img class="logo-menu" src="img/logo-black.png" alt="">
             <li class="active"><a href="index.html">HOME</a></li>
             <li><a href="products.html">PRODUCTS</a></li>
-            <li><a href="">ABOUT US</a></li>
-            <li><a href="">CONTACT</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="contant.html">CONTACT</a></li>
           </ul>
           <div class="login_signup">
             <a href="login.html">LOGIN <i class="fa-solid fa-right-to-bracket"></i></a>
@@ -103,9 +103,10 @@
                         </div>
     
                         <label for="email">Email:</label>
-                        <div class="inp">
+                        <div class="inp pb-4">
                             <i class="fa-solid fa-envelope"></i>
-                            <input type="email" placeholder="Enter Your Email">
+                            <input id="email" type="email" placeholder="Enter Your Email">
+                            <span id="message" class="text-danger p-1">You Must Enter Your password Value</span>
                         </div>
     
                         <label for="email">Phone:</label>
@@ -126,16 +127,17 @@
                         <div class="inp">
                           <i class="fa-solid fa-location-dot"></i>
                             <input type="text" placeholder="Enter Your Address">
-                        </div>
+                          </div>
     
                         <label for="password">Password:</label>
-                        <div class="inp">
+                        <div class="inp pb-5">
                             <i class="fa-solid fa-lock"></i>
-                            <input type="password" placeholder="Enter Your Password">
-                        </div>
+                            <input id="password" type="password" placeholder="Enter Your Password">
+                            <span id="message2" class="text-danger p-2 ">You Must Enter Your password Value</span>
+                          </div>
     
     
-                        <div class="check-box">
+                        <div class="check-box pt-4">
                             <div class="check">
                                 <input type="checkbox">
                                 <span>Save Account</span>
@@ -143,7 +145,7 @@
                             
                         </div>
     
-                        <button>Create an account</button>
+                        <button id="sign-in">Create an account</button>
                     </form>
     
                     <span class="line-sign">or</span>
@@ -174,7 +176,7 @@
               <i class="fa-solid fa-headset"></i>
               <div class="hotline-text">
                 <h6>Hotline Free 11/24</h6>
-                <span>(+100) 123 456 7890</span>
+                <span>(+20) 115 330 3915</span>
               </div>
             </div>
             <p>
@@ -234,10 +236,10 @@
             <span>Mohamed Taha</span>
           </p>
           <div class="payment">
-            <img src="img/payment-1.png" alt="" />
-            <img src="img/payment-2.png" alt="" />
-            <img src="img/payment-3.png" alt="" />
-            <img src="img/payment-4.png" alt="" />
+            <a href="pay.html"><img src="img/payment-1.png" alt="" /></a>
+            <a href="pay.html"><img src="img/payment-2.png" alt="" /></a>
+            <a href="pay.html"><img src="img/payment-3.png" alt="" /></a>
+            <a href="pay.html"><img src="img/payment-4.png" alt="" /></a>
           </div>
         </div>
       </div>
@@ -250,5 +252,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="js/script.js"></script>
+    <script src="js/login&register.js"></script>
   </body>
 </html>

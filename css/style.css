@@ -1054,6 +1054,16 @@ footer .bottom-footer .container p span{
   color: var(--main-color);
 }
 /* End checkOut.html */
+.about-us{
+  padding-top: 200px;
+  height: 89vh;
+  text-align: center;
+}
+@media(max-width:900px){
+  .about-us{
+    padding-top: 300px;
+  }
+}
 /* Responsive  */
 
 /*Start Home */
